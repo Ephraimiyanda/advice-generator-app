@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(37, 38, 47);
+    align-items: center; 
+   display: flex;
+    flex-direction: column;
+}
+.container{
+background-color: rgb(71, 78, 93);  
+text-align: center;
+width:450px;
+height: 200px;
+margin-top: 80px;
+border-radius: 10px;
+}
+.advice{
+    margin-top: 20px;
+    color: lightgreen;
+
+}
+p{
+    color: white;
+    flex-wrap: wrap;
+    width:300px;
+    height: 10px;
+    text-align: center;
+    margin-left: 80px;
+}
+.divider{
+    margin-left: 14px;
+   margin-top: 77px;
+    height: 10px;
+    width: 420px;
+    background-image: url(./images/pattern-divider-desktop.svg);
+}
+.dice{
+
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    border-radius: 100px;
+    background-position: center;
+    margin-left: 210px;
+    margin-top: 17px;
+    background-color: rgb(94, 252, 94);
+    background-image: url(./images/icon-dice.svg);
+}.dice:hover{
+    background-color:rgb(113, 243, 165) ;
+    box-shadow:  0px 0px 14px 15px  rgba(84, 249, 98, 0.09);
+  
+}
