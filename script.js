@@ -17,4 +17,5 @@ adviceRef.textContent=`"${advice}"`
 
 
 }
+getAdvice()
 dice.addEventListener("click", getAdvice)
