@@ -5,17 +5,21 @@ body{
     flex-direction: column;
 }
 .container{
-background-color: rgb(71, 78, 93);  
+background-color: rgb(71, 78, 93); 
+display: flex;
+flex-wrap: wrap; 
+justify-content: center;
 text-align: center;
 width:450px;
-height: 200px;
+height: 240px;
 margin-top: 80px;
 border-radius: 10px;
 }
 .advice{
+    width: 100%;
     margin-top: 20px;
     color: lightgreen;
-
+    font-family: Manrope;
 }
 p{
     color: white;
@@ -23,14 +27,15 @@ p{
     width:300px;
     height: 10px;
     text-align: center;
-    margin-left: 80px;
+    font-family: Manrope;
 }
 .divider{
-    margin-left: 14px;
-   margin-top: 77px;
+   
+   margin-top: 97px;
     height: 10px;
     width: 420px;
-    background-image: url(./images/pattern-divider-desktop.svg);
+    padding-bottom: 20px;
+   
 }
 .dice{
 
@@ -39,12 +44,29 @@ p{
     width: 50px;
     border-radius: 100px;
     background-position: center;
-    margin-left: 210px;
-    margin-top: 17px;
+    margin-top: -24px;
     background-color: rgb(94, 252, 94);
     background-image: url(./images/icon-dice.svg);
 }.dice:hover{
     background-color:rgb(113, 243, 165) ;
     box-shadow:  0px 0px 14px 15px  rgba(84, 249, 98, 0.09);
   
+}
+@media (max-width:500px) {
+    .container{
+       width: 300px;
+       padding: 30px;
+       height: fit-content;
+    }
+    .divider{
+        width: fit-content;
+        margin-left: 0px;
+        padding-bottom:  10px;
+        
+    }
+    .dice{
+        margin: 0px;
+        margin-top: -25px;
+        
+    }
 }
